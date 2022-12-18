@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+* {
+    font-family: 'Comic Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E4E9F7;
+}
+
+.openButton {
+    position: fixed;
+    bottom: 17px;
+    right: 58px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    border-color: green;
+    border-width: 10px;
+}
+
+.openButton i {
+    font-size: 75px;
+    color: green;
+}
+
+.chatDots {
+    display: none;
+    position: fixed;
+    bottom: 123px;
+    right: 108px;
+    border-width: 5px;
+    border-style: dotted;
+    padding: 15px;
+    border-color: green;
+}
+
+.block {
+    display: block;
+}
+
+.chatDots p {
+    font-family: 'Comic Neue', sans-serif;
+    font-size: larger;
+    color: green;
+}

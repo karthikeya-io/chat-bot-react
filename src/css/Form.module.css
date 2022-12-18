@@ -1,0 +1,25 @@
+.inputBox {
+    width: 75%;
+    height: 40px;
+    font-size: larger;
+    padding: 2px;
+    border: dashed;
+    border-color: grey;
+}
+
+.inputBox:focus {
+    outline: none;
+    border-style: dashed;
+    border-color: green;
+}
+
+.butn {
+    font-size: larger;
+    width: 20%;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.butn:hover {
+    background-color: rgb(55, 223, 55);
+}

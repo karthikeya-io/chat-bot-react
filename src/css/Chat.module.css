@@ -1,0 +1,75 @@
+.chatPopup {
+    visibility: hidden;
+    position: fixed;
+    bottom: 133px;
+    right: 50px;
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+    background-color: white;
+    opacity: 0;
+    transition: visibility 0.25s ease-in, opacity 0.5s ease-out;
+    border-width: 5px;
+    border-radius: 4px;
+}
+
+.chatWindow {
+    overflow-y: scroll;
+    background-color: #e6ffff;
+}
+
+/* .chatWindow ul {
+    list-style-image: url('sqpurple.gif');
+} */
+.chatWindow::-webkit-scrollbar {
+    display: none;
+}
+
+.block {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+
+.chatWindow {
+    width: 400px;
+    height: 70vh;
+
+}
+
+.msgDiv {
+    width: 100%;
+}
+
+.robotMsgDiv {
+    margin: 10px;
+    background-color: black;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 60%;
+    overflow-wrap: normal;
+    word-break: break-word;
+
+}
+
+.userMsgDiv {
+    margin: 10px;
+    background-color: #005c4b;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 60%;
+    overflow-wrap: normal;
+    word-break: break-word;
+    margin-left: auto;
+}
+
+.robotMsg,
+.userMsg {
+    text-align: left;
+    margin: 10px;
+    color: wheat;
+}
